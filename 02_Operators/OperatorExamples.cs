@@ -59,7 +59,14 @@ namespace _02_Operators
             bool listAreEqual = firstList == secondList;
             Console.WriteLine($"The lists are the same? {listAreEqual}");
 
+            bool greaterThan = age > 12;
+            bool greaterThanOrEqual = age >= 24;
+            bool lessThan = age < 89;
+            bool lessThanOrEqual = age <= 24;
 
+            bool orValue = equals || lessThan;
+
+            bool andValue = greaterThan && orValue;
 
         }
 
