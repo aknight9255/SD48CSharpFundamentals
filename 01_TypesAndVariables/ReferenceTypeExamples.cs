@@ -7,6 +7,8 @@ namespace _01_TypesAndVariables
     [TestClass]
     public class ReferenceTypeExamples
     {
+        
+
         [TestMethod]
         public void Strings()
         {
@@ -33,6 +35,7 @@ namespace _01_TypesAndVariables
             Console.WriteLine(concatenatedFullName);
             Console.WriteLine(compositeFullName);
             Console.WriteLine(interpolatedFullName);
+            string stringExample;
         }
 
         [TestMethod]
