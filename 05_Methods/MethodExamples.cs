@@ -21,6 +21,8 @@ namespace _05_Methods
             return sum;
         }
 
+     
+
         private int CalculateAge(DateTime birthdate)
         {
             TimeSpan ageSpan = DateTime.Now - birthdate;
@@ -41,7 +43,13 @@ namespace _05_Methods
 
             int myAge = CalculateAge(new DateTime(1901, 05, 23));
             Console.WriteLine("My age: " + myAge);
-
+            
         }
+    }
+
+    public class TestClass
+    {
+        MethodExamples aVar = new MethodExamples();
+        
     }
 }
