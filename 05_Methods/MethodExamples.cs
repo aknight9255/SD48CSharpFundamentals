@@ -39,7 +39,7 @@ namespace _05_Methods
             var sum = AddTwoNumbers(42, 75);
             Console.WriteLine(sum);
 
-            double doubleSum = AddTwoNumbers(12.2, 43.6);
+            var doubleSum = AddTwoNumbers(12.2, 43.6);
 
             int myAge = CalculateAge(new DateTime(1901, 05, 23));
             Console.WriteLine("My age: " + myAge);
