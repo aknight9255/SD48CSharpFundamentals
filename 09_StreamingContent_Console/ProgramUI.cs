@@ -27,7 +27,8 @@ namespace _09_StreamingContent_Console
                     "2) Find streaming content by title \n" +
                     "3) Add new streaming content \n" +
                     "4) Remove streaming content \n" +
-                    "5) Exit");
+                    "5) Update \n" +
+                    "6) Exit");
                 string userInput = Console.ReadLine();
 
                 switch (userInput)
