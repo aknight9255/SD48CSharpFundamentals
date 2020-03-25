@@ -8,7 +8,7 @@ namespace _07_RepositoryPattern_Repository
 {
     public enum GenreType
     {
-        Horror =1 ,
+        Horror = 1,
         SciFi,
         Bromance,
         Action,
@@ -26,7 +26,7 @@ namespace _07_RepositoryPattern_Repository
         public bool IsFamilyFriendly { get; set; }
 
         public StreamingContent() { }
-        public StreamingContent(string title, int runTime, DateTime releaseDate,GenreType type, bool familyFriendly)
+        public StreamingContent(string title, int runTime, DateTime releaseDate, GenreType type, bool familyFriendly)
         {
             Title = title;
             RunTimeInMin = runTime;

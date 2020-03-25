@@ -10,6 +10,7 @@ namespace _07_RepositoryPattern_Repository
     {
         protected readonly List<StreamingContent> _contentDirectory = new List<StreamingContent>();
 
+        public void Add(StreamingContent test) => _contentDirectory.Add(test);
         public bool AddContentToDirectory(StreamingContent content)
         {
             int startingCount = _contentDirectory.Count;
@@ -19,10 +20,10 @@ namespace _07_RepositoryPattern_Repository
             //_contentDirectory.Add(content);
         }
 
-        public List<StreamingContent> GetContent()
-        {
-            return _contentDirectory;
-        }
+        public List<StreamingContent> GetContent() => _contentDirectory;
+        //{
+        //    return _contentDirectory;
+        //}
 
         public StreamingContent GetContentByTitle(string title)
         {

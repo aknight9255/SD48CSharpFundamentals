@@ -15,11 +15,11 @@ namespace _05_Methods
             var sum = numOne + numTwo;
             return sum;
         }
-        public double AddTwoNumbers(double numOne, double numTwo)
-        {
-            double sum = numOne + numTwo;
-            return sum;
-        }
+        public double AddTwoNumbers(double numOne, double numTwo) => numOne + numTwo;
+        //{
+        //    double sum = numOne + numTwo;
+        //    return sum;
+        //}
 
      
 
