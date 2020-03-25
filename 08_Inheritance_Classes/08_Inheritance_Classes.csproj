@@ -44,6 +44,7 @@
     <Compile Include="Animal.cs" />
     <Compile Include="Cat.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sloth.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
