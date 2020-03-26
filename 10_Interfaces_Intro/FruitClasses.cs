@@ -19,6 +19,10 @@ namespace _10_Interfaces_Intro
             Peeled = true;
             return "You peel the banana.";
         }
+        public string Slice()
+        {
+            return "You have small bananas now";
+        }
 
         public Banana() { }
         public Banana(bool isPeeled)
