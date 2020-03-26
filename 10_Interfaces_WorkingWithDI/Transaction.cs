@@ -16,7 +16,7 @@ namespace _10_Interfaces_WorkingWithDI
         }
         public DateTimeOffset DateOfTransaction { get; set; }
 
-        public decimal GetTransactionAMount()
+        public decimal GetTransactionAmount()
         {
             return _currency.Value;
         }

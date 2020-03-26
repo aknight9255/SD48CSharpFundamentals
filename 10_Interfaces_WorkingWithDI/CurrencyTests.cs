@@ -14,7 +14,7 @@ namespace _10_Interfaces_WorkingWithDI
         }
 
         [DataTestMethod]
-        [DataRow(100.2)]
+        [DataRow(12341.23)]
         [DataRow(32.44)]
         [DataRow(42.77)]
         [DataRow(432)]
