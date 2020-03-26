@@ -22,5 +22,6 @@ namespace _08_Inheritance_Classes
         {
             Console.WriteLine("Megatherium uses Move! It's not super effective....");
         }
+
     }
 }

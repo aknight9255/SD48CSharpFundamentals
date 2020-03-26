@@ -22,6 +22,12 @@ namespace _08_Inheritance_Tests
             List<Animal> test = new List<Animal>();
             test.Add(firstCat);
             test.Add(firstLiger);
+
+
+            Animal oneAnimal = new Animal();
+            oneAnimal.BreathsAir = false;
+            
+
         }
     }
 }
