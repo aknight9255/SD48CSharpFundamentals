@@ -35,5 +35,18 @@ namespace _11_StreamingContent_UIRefactorTests
             Console.WriteLine(console.Output);
             Assert.IsTrue(console.Output.Contains("This is a test"));
         }
+
+        [TestMethod]
+        public void RemoveFromList_ShouldSeeRemovedMessage()
+        {
+            var commandList = new List<string> { "4","2","5"};
+            var console = new MockConsole(commandList);
+            var ui = new ProgramUI(console);
+
+            ui.Run();
+            Console.WriteLine(console.Output);
+
+            Assert.IsTrue(console.Output.Contains("Jack has been removed"));
+        }
     }
 }
