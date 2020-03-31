@@ -33,6 +33,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_StreamingContent_UIRefac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_StreamingContent_UIRefactor", "11_StreamingContent_UIRefactor\11_StreamingContent_UIRefactor.csproj", "{C4315263-C9F3-472C-B8C0-0F0935EEDF57}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Challenges", "Challenges", "{0E77DE24-4D26-4769-96A6-A20FFD7D6A25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W1D3maryPoppins", "W1D3maryPoppins\W1D3maryPoppins.csproj", "{EAAB4150-270A-44E2-AF37-6F4F5BC0B64B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W2D2-Calculator", "W2D2-Calculator\W2D2-Calculator.csproj", "{F46CC5E7-E86C-4764-862B-4176BE8B55FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeveloperTeamChallenge", "DeveloperTeamChallenge\DeveloperTeamChallenge.csproj", "{16B9F68A-2ED9-4883-B391-5E0323E18EEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W2D3CarInsuranceRepo", "W2D3CarInsuranceRepo\W2D3CarInsuranceRepo.csproj", "{4EB38325-FCD5-43A2-AAD3-64DC1C62F23A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W2D4BakerStreetBakeryChallenge", "W2D4BakerStreetBakeryChallenge\W2D4BakerStreetBakeryChallenge.csproj", "{8F8907AE-FCD2-4C42-B150-E002D32A9BAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,9 +111,36 @@ Global
 		{C4315263-C9F3-472C-B8C0-0F0935EEDF57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4315263-C9F3-472C-B8C0-0F0935EEDF57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4315263-C9F3-472C-B8C0-0F0935EEDF57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAAB4150-270A-44E2-AF37-6F4F5BC0B64B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAAB4150-270A-44E2-AF37-6F4F5BC0B64B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAAB4150-270A-44E2-AF37-6F4F5BC0B64B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAAB4150-270A-44E2-AF37-6F4F5BC0B64B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F46CC5E7-E86C-4764-862B-4176BE8B55FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F46CC5E7-E86C-4764-862B-4176BE8B55FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F46CC5E7-E86C-4764-862B-4176BE8B55FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F46CC5E7-E86C-4764-862B-4176BE8B55FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16B9F68A-2ED9-4883-B391-5E0323E18EEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B9F68A-2ED9-4883-B391-5E0323E18EEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B9F68A-2ED9-4883-B391-5E0323E18EEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B9F68A-2ED9-4883-B391-5E0323E18EEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EB38325-FCD5-43A2-AAD3-64DC1C62F23A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EB38325-FCD5-43A2-AAD3-64DC1C62F23A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EB38325-FCD5-43A2-AAD3-64DC1C62F23A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EB38325-FCD5-43A2-AAD3-64DC1C62F23A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F8907AE-FCD2-4C42-B150-E002D32A9BAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F8907AE-FCD2-4C42-B150-E002D32A9BAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F8907AE-FCD2-4C42-B150-E002D32A9BAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F8907AE-FCD2-4C42-B150-E002D32A9BAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EAAB4150-270A-44E2-AF37-6F4F5BC0B64B} = {0E77DE24-4D26-4769-96A6-A20FFD7D6A25}
+		{F46CC5E7-E86C-4764-862B-4176BE8B55FE} = {0E77DE24-4D26-4769-96A6-A20FFD7D6A25}
+		{16B9F68A-2ED9-4883-B391-5E0323E18EEF} = {0E77DE24-4D26-4769-96A6-A20FFD7D6A25}
+		{4EB38325-FCD5-43A2-AAD3-64DC1C62F23A} = {0E77DE24-4D26-4769-96A6-A20FFD7D6A25}
+		{8F8907AE-FCD2-4C42-B150-E002D32A9BAA} = {0E77DE24-4D26-4769-96A6-A20FFD7D6A25}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {31BD4819-BC77-42F3-BA25-BDA14462550B}

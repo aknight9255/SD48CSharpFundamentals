@@ -1,0 +1,31 @@
+﻿Baker Street Bakery Challenge
+A client, Mrs.Hudson, has asked us to make a console application for her bakery.
+She is going to use it as a register system to enter customer orders.
+Create a new console application. We are going to name this BakerStreetBakery.
+We will need to create classes for both our Orders and Products.
+The client has specified that she organizes her products based on type Bread, Cake, Pastry, Pies.
+Each Order will need to have the associated Product, Customer Name, the ordered batch size, and the total order cost.
+(Don't forget about your constructors)
+
+We don't need to unit test the properties for this program.
+
+Once you have created the class with your properties create a class for your repository name this class OrderRepository.
+We need a method to add to an order to a list, get the list, remove from list, and print the list.
+
+She also wants to charge an initial $100 per order and add an additional 
+$500.01 for bread, $2000 for cake, $200.10 for pasteries, and $851.5 for pies. 
+(This calculation should be in our repo)
+
+Once you create your object class and repo, unit test the methods in your repository.
+Do this in a new Unit Test Project name this BakerStreetBakery_Tests.
+
+If you get the Repository built and tested, next we will want to build out a ProgramUI.
+Create a method named Run(). 
+Go back to the Program class and create an instance of ProgramUI in the static void main method and call the Run method. 
+
+Ex: ProgramUI program = new ProgramUI();
+    program.Run();
+
+Write a user interface with a menu for the user which is our client to enter a order from a customer. 
+They need to enter the name of the product such as Cinnamon Roll or Wedding Cake, the amount needed for the order. 
+The cost will be calculated based on type (our method in the repository).
